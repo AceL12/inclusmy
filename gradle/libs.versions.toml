@@ -1,0 +1,22 @@
+[versions]
+gson = "2.10.1"
+asm = "9.4"
+kotlinReflect = "1.7.20"
+kotlinxSerialization = "1.5.1"
+weaveLoader = "1.0.0-PRE2"
+weaveCommon = "1.0.0-PRE2"
+weaveInternals = "1.0.0-PRE2"
+mixin = "0.8.5"
+
+[libraries]
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+asm = { module = "org.ow2.asm:asm", version.ref = "asm" }
+asmtree = { module = "org.ow2.asm:asm-tree", version.ref = "asm" }
+asmcommons = { module = "org.ow2.asm:asm-commons", version.ref = "asm" }
+asmutil = { module = "org.ow2.asm:asm-util", version.ref = "asm" }
+kotlinReflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlinReflect" }
+kotlinxSerialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerialization" }
+weaveLoader = { module = "net.weavemc:loader", version.ref = "weaveLoader" }
+weaveCommon = { module = "net.weavemc.api:common", version.ref = "weaveCommon" }
+weaveInternals = { module = "net.weavemc:internals", version.ref = "weaveInternals" }
+mixin = { module = "org.spongepowered:mixin", version.ref = "mixin" }
